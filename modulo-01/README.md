@@ -32,3 +32,8 @@ Ao concluir este módulo você será capaz de:
 ### Projeto
 
 Criar um portfólio utilizando GitHub.
+
+# Exercício 1 – Melhorando o visual do README
+
+
+
