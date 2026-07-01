@@ -71,6 +71,7 @@ Clique aqui para acessar o [Site da Aponti](https://moodle.aponti.org.br/?redire
 
 Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/ranielleribeirodasilva-sketch/aponti-testes-de-software-turma-18/tree/main./CONTATO.md)
 
+![Logo oficial da ferramenta](https://miro.medium.com/v2/resize:fit:720/format:webp/0*J4nVdmRFa1OViuXB.png)
 
 
 
