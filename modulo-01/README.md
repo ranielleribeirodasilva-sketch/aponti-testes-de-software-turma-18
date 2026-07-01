@@ -65,7 +65,7 @@ Abaixo estão dispostos os módulos que compõem a nossa jornada de conhecimento
 
 # Exercício 2 – Inserindo recursos no README 🚀
 
-Site Oficial: Acesse o Portal da APONTI para novidades e notas.
+🌐 Site Oficial: Acesse o Portal da APONTI para novidades e notas.
 
 Clique aqui para acessar o [Site da Aponti](https://moodle.aponti.org.br/?redirect=0).
 
