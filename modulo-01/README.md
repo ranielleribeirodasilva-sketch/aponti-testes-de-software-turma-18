@@ -69,6 +69,10 @@ Abaixo estão dispostos os módulos que compõem a nossa jornada de conhecimento
 
 Clique aqui para acessar o [Site da Aponti](https://moodle.aponti.org.br/?redirect=0).
 
+Para falar conosco, acesse a pagina de [fale Conosco](./CONTATO.md
+
+
+
 
 
 
