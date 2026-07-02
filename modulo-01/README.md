@@ -73,6 +73,10 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 ![Logo oficial da ferramenta](https://miro.medium.com/v2/resize:fit:720/format:webp/0*J4nVdmRFa1OViuXB.png)
 
+[Clique aqui para abrir o arquivo PDF](PROJETO PESSOAL GITHUB.pdf)
+
+
+
 
 
 
