@@ -1,1 +1,26 @@
+Introdução à Testes de Software
 
+Atividade Avaliativa
+
+O que é teste de software?
+
+- O teste de software serve para analisar e avaliar se o sistema está funcionando corretamente e se
+o código atende ao que foi planejado, garantindo que tudo esteja ok antes do envio para o cliente.
+
+Por que testar é importante para o negócio?
+
+- Para que o cliente não tenha surpresas inesperadas, como códigos mal estruturados, bugs e lentidão,
+o que causa insatisfação e prejuízos financeiros e de reputação para a empresa.
+
+O que caracteriza um software com qualidade?
+
+- Um software com qualidade é aquele que atende plenamente aos requisitos estabelecidos pelo cliente e funciona com excelência.
+Para garantir isso, os testes de qualidade são fundamentais,
+avaliando não apenas as funcionalidades, mas também critérios como segurança, confiabilidade, usabilidade e eficiencia.
+
+Qual o papel do QA em um time moderno?
+
+- Em um time moderno, o papel do QA vai além de apenas encontrar bugs no final do processo; 
+ele atua de forma preventiva desde o início do projeto. O QA colabora com o time ajudando
+a definir critérios de aceitação claros, automatizando testes e disseminando a cultura de 
+qualidade, mostrando que a qualidade é uma responsabilidade de todos, e não de uma única pessoa.
