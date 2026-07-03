@@ -77,6 +77,9 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 ![Texto Alternativo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWakc9JkU_mUUeEaBrrAiry6U4yXSMX2jpQ14xzAvq1Q&s=10)
 
+Exercício 3 –  Organização do README
+🚀
+
 
 
 
