@@ -81,15 +81,15 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 
 
-# [Aulas de GIT e GITHUB]
+# Aulas de GIT e GITHUB
 
-> [Aprender Git e GitHub é transformar linhas de código em pontes para o futuro do desenvolvimento.]
+> Aprender Git e GitHub é transformar linhas de código em pontes para o futuro do desenvolvimento.
 
 ---
 
 ## 🎯 Objetivo
 
-[O GitHub funciona como o "LinkedIn dos programadores". Aprender a usá-lo serve para mostrar ao mercado e aos recrutadores o seu código, sua evolução e como você colabora com outros projetos.]
+O GitHub funciona como o "LinkedIn dos programadores". Aprender a usá-lo serve para mostrar ao mercado e aos recrutadores o seu código, sua evolução e como você colabora com outros projetos.
 
 ---
 
