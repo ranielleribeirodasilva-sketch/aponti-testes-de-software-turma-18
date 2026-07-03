@@ -120,6 +120,28 @@ meu-projeto/
 
 
 
+## 🚀 Como Executar o Projeto
+
+Siga os passos abaixo para configurar e rodar o projeto localmente na sua máquina.
+
+### 📋 Pré-requisitos
+
+Antes de começar, você precisará ter instalado em seu computador as seguintes ferramentas:
+* **Git:** Para clonar o projeto ([Baixar Git](https://git-scm.com/)).
+* **Node.js:** (Versão 18 ou superior) Para executar o ambiente JavaScript ([Baixar Node.js](https://nodejs.org/)).
+* Um editor de código de sua preferência (recomendamos o **VS Code**).
+
+---
+
+### 🛠️ Passo a Passo
+
+Abra o terminal do seu computador (ou o terminal do VS Code) e execute os seguintes comandos, um por um:
+
+#### 1. Clonar o Repositório
+Copie o projeto do GitHub para a sua máquina local:
+```bash
+git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
+
 
 
 
