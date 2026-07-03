@@ -145,9 +145,9 @@ git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.co
 ✍️ Autor
 Desenvolvido por [Ranielle].
 
-💼 LinkedIn: [[Seu Usuário](https://www.linkedin.com/in/ranielle-ribeiro-19850835a?utm_source=share_via&utm_content=profile&utm_medium=member_ios)]
+💼 LinkedIn: [https://www.linkedin.com/in/ranielle-ribeiro-19850835a?utm_source=share_via&utm_content=profile&utm_medium=member_ios]
 
-🖥️ GitHub: [Seu Usuário]
+🖥️ GitHub: [https://github.com/ranielleribeirodasilva-sketch]
 
 📧 E-mail: [ranielleribeirodasilva@gmail.com]
 
