@@ -97,7 +97,7 @@ O GitHub funciona como o "LinkedIn dos programadores". Aprender a usá-lo serve 
 
 O projeto foi construído utilizando as seguintes ferramentas e tecnologias:
 
-* **[VS Code]**  - [Possui uma das melhores e mais populares integrações com Git e GitHub.
+* **[VS Code]**  - Possui uma das melhores e mais populares integrações com Git e GitHub.
 
 ---
 
