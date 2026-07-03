@@ -142,14 +142,14 @@ Copie o projeto do GitHub para a sua máquina local:
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 
-✍️ Autor
+## ✍️ Autor
 Desenvolvido por **Ranielle**.
 
-💼 **LinkedIn:** [Acesse meu LinkedIn](https://www.linkedin.com/in/ranielle-ribeiro-19850835a?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
+* 💼 **LinkedIn:** [Acesse meu LinkedIn](https://www.linkedin.com/in/ranielle-ribeiro-19850835a?utm_source=share_via&utm_content=profile&utm_medium=member_ios)
 
-🖥️ **GitHub:** [Veja meu perfil](https://github.com/ranielleribeirodasilva-sketch)
+* 🖥️ **GitHub:** [Veja meu perfil](https://github.com/ranielleribeirodasilva-sketch)
 
-📧 **E-mail:** ranielleribeirodasilva@gmail.com
+* 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
 
 
