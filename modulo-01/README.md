@@ -77,7 +77,50 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 ![Texto Alternativo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWakc9JkU_mUUeEaBrrAiry6U4yXSMX2jpQ14xzAvq1Q&s=10)
 
-# Exercício 2 – Inserindo recursos no README 🚀
+# Exercício 3 – Organização do README 🚀
+
+
+
+# [Título do Projeto]
+
+> [Uma frase curta e de impacto descrevendo o que o projeto faz, ex: "Plataforma web para gerenciamento de finanças pessoais."]
+
+---
+
+## 🎯 Objetivo
+
+[Escreva aqui o objetivo principal do projeto. Explique o problema que ele resolve, qual era a meta ao desenvolvê-lo e quem é o público-alvo ou o contexto de criação, ex: "Este projeto foi desenvolvido como trabalho de conclusão de curso com o objetivo de automatizar..."]
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+O projeto foi construído utilizando as seguintes ferramentas e tecnologias:
+
+* **[Tecnologia 1]** (v18.0) - [Breve descrição do motivo do uso]
+* **[Tecnologia 2]** - [Breve descrição]
+* **[Tecnologia 3]** - [Breve descrição]
+* **[Tecnologia 4]** - [Breve descrição]
+
+---
+
+## 📁 Estrutura das Pastas
+
+Abaixo está a representação da estrutura de diretórios do projeto:
+
+```text
+meu-projeto/
+├── src/
+│   ├── assets/          # Imagens, fontes e arquivos estáticos
+│   ├── components/      # Componentes reutilizáveis da interface
+│   ├── services/        # Integrações com APIs e serviços externos
+│   ├── views/           # Páginas principais do aplicativo
+│   ├── index.js         # Ponto de entrada da aplicação
+│   └── routes.js        # Configuração de rotas
+├── .gitignore           # Arquivos ignorados pelo Git
+├── README.md            # Documentação do projeto
+└── package.json         # Dependências e scripts do projeto
+
 
 
 
