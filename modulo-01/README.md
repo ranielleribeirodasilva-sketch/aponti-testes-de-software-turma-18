@@ -81,15 +81,15 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 
 
-# [Título do Projeto]
+# [Aulas de GIT e GITHUB]
 
-> [Uma frase curta e de impacto descrevendo o que o projeto faz, ex: "Plataforma web para gerenciamento de finanças pessoais."]
+> [Aprender Git e GitHub é transformar linhas de código em pontes para o futuro do desenvolvimento.]
 
 ---
 
 ## 🎯 Objetivo
 
-[Escreva aqui o objetivo principal do projeto. Explique o problema que ele resolve, qual era a meta ao desenvolvê-lo e quem é o público-alvo ou o contexto de criação, ex: "Este projeto foi desenvolvido como trabalho de conclusão de curso com o objetivo de automatizar..."]
+[O GitHub funciona como o "LinkedIn dos programadores". Aprender a usá-lo serve para mostrar ao mercado e aos recrutadores o seu código, sua evolução e como você colabora com outros projetos.]
 
 ---
 
@@ -97,10 +97,7 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 O projeto foi construído utilizando as seguintes ferramentas e tecnologias:
 
-* **[Tecnologia 1]** (v18.0) - [Breve descrição do motivo do uso]
-* **[Tecnologia 2]** - [Breve descrição]
-* **[Tecnologia 3]** - [Breve descrição]
-* **[Tecnologia 4]** - [Breve descrição]
+* **[VS Code]**  - [Possui uma das melhores e mais populares integrações com Git e GitHub.
 
 ---
 
