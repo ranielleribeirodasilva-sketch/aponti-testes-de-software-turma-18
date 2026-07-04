@@ -163,7 +163,7 @@ Para clonar o repositório, verificar o status dos arquivos e enviar as alteraç
 git clone [https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git](https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git)
 git status
 git add .
-git commit -m "feat: adicionando blocos de código"
+git commit -m "feat: adicionando blocks de código"
 git push origin main
 
 💻 Comandos do Terminal
@@ -183,16 +183,17 @@ def saudar_usuario(nome):
 if __name__ == "__main__":
     saudar_usuario("Ranielle")
 
+Exercício 5 – Checklist de atividades 🚀
 
-# Exercício 5 – Checklist de atividades 🚀
+[ ] Criar repositório
 
+[ ] Adicionar README
 
+[ ] Inserir imagem
 
-- [ ] Criar repositório
-- [ ] Adicionar README
-- [ ] Inserir imagem
-- [ ] Inserir PDF
-- [ ] Finalizar documentação
+[ ] Inserir PDF
+
+[ ] Finalizar documentação
 
 
 
