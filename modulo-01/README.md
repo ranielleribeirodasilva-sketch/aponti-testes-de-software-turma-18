@@ -193,6 +193,15 @@ if __name__ == "__main__":
 - [ ] Inserir PDF  
 - [ ] Finalizar documentação
 
+# Exercício 6 – Criando uma tabela 🚀
+
+Crie uma tabela contendo as principais tecnologias estudadas.
+
+| Tecnologia | Finalidade | Nível de conhecimento |
+| :--- | :--- | :--- |
+| **Git** | Controle de versão | Básico |
+| **GitHub** | Hospedagem de código | Básico |
+| **Markdown** | Documentação | Básico |
 
 
 
