@@ -185,6 +185,8 @@ if __name__ == "__main__":
 
 # Exercício 5 – Checklist de atividades 🚀
 
+---
+
 - [ ] Criar repositório
 - [ ] Adicionar README
 - [ ] Inserir imagem
