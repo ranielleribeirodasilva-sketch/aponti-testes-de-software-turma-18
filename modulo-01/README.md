@@ -143,9 +143,10 @@ Copie o projeto do GitHub para a sua máquina local:
 ```bash
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 
----
 
 ## ✍️ Autor
+
+---
 
 Desenvolvido por **Ranielle**.
 
