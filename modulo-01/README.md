@@ -144,17 +144,6 @@ Copie o projeto do GitHub para a sua máquina local:
 git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.com/seu-usuario/seu-repositorio.git)
 
 
-## ✍️ Autor
-
----
-
-Desenvolvido por **Ranielle**.
-
-* 💼 **LinkedIn:** [Acesse meu LinkedIn](https://www.linkedin.com/in/ranielle-ribeiro-19850835a)
-* 🖥️ **GitHub:** [Veja meu perfil](https://github.com/ranielleribeirodasilva-sketch)
-* 📧 **E-mail:** ranielleribeirodasilva@gmail.com
-
-
 ## 👤 Autor
 
 Desenvolvido por [Ranielle](https://github.com/ranielleribeirodasilva-sketch)
