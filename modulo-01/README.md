@@ -204,6 +204,14 @@ Crie uma tabela contendo as principais tecnologias estudadas.
 | **Markdown** | Documentação | Básico |
 
 
+# Exercício 7 – Badges do GitHub 🚀
+
+Abaixo estão os selos que representam as principais tecnologias, licença e o status atual deste projeto:
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge)
+
 
 
 
