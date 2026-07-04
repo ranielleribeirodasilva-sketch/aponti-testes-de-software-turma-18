@@ -151,6 +151,21 @@ Desenvolvido por [Ranielle Ribeiro](https://github.com/ranielleribeirodasilva-sk
 * 🖥️ **GitHub:** [https://github.com/ranielleribeirodasilva-sketch](https://github.com/ranielleribeirodasilva-sketch)
 * 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
+# Exercício 4 – Blocos de código
+ 🚀
+
+ Abaixo estão os exemplos de comandos e códigos utilizados no desenvolvimento e execução deste projeto:
+
+#### 📌 Comandos Git
+
+Para clonar o repositório, verificar o status dos arquivos e enviar as alterações para o GitHub:
+```bash
+git clone [https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git](https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git)
+git status
+git add .
+git commit -m "feat: adicionando blocos de código"
+git push origin main
+
 
 
 
