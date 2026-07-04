@@ -166,7 +166,7 @@ git add .
 git commit -m "feat: adicionando blocos de código"
 git push origin main
 
-Comandos do Terminal
+💻 Comandos do Terminal
 
 Comandos gerais utilizados para navegar entre as pastas do sistema e gerenciar arquivos pelo terminal:
 
@@ -182,6 +182,16 @@ def saudar_usuario(nome):
 
 if __name__ == "__main__":
     saudar_usuario("Ranielle")
+
+# Exercício 5 – Checklist de atividades
+
+- [ ] Criar repositório
+- [ ] Adicionar README
+- [ ] Inserir imagem
+- [ ] Inserir PDF
+- [ ] Finalizar documentação
+
+
 
 
 
