@@ -220,7 +220,7 @@ Abaixo está um bloco de citação destacando uma das frases mais famosas do mun
 > "Programas devem ser escritos para pessoas lerem e apenas incidentalmente para máquinas executarem."
 > — *Harold Abelson*
 
-## 📌 Índice de Navegação - Exercício 9
+## 📌 Exercício 9 - Índice de Navegação 
 
 Clique em qualquer link abaixo para ir direto até a seção desejada:
 
@@ -234,6 +234,34 @@ Clique em qualquer link abaixo para ir direto até a seção desejada:
 - [Exercício 8 – Inserindo citações](#exercício-8--inserindo-citações-)
 - [Exercício 9 – Links internos](#-índice-de-navegação)
 
+# Exercício 10 – Desafio Final 🚀
+
+Abaixo estão cinco recursos avançados do Markdown adicionados para enriquecer a documentação do projeto:
+
+### 1. Detalhes Expansíveis (Dropdown)
+<details>
+<summary><b>Clique aqui para ver uma dica secreta de Git 💡</b></summary>
+
+Se você fez um commit e errou a mensagem, você pode corrigi-lo digitando no terminal:
+`git commit --amend -m "sua nova mensagem"`
+</details>
+
+### 2. Texto Riscado
+Para este projeto, decidimos focar apenas no desenvolvimento web e deixar a ~~automação de testes em desktops~~ para uma próxima etapa.
+
+### 3. Texto Destacado (Marca-texto)
+> **Atenção:** Lembre-se de manter o seu repositório sempre <mark>atualizado e público</mark> para que os recrutadores consigam avaliar sua evolução diária.
+
+### 4. Imagem Clicável (Acesse o GitHub pelo Logo)
+Clique na imagem abaixo para ser redirecionado diretamente para a página principal do GitHub:
+
+<a href="https://github.com" target="_blank">
+  <img src="https://github.com/user-attachments/assets/6ca05aa4-8921-4ed4-a74f-87080ff40869" width="100" height="100" alt="Logo do GitHub" />
+</a>
+
+### 5. Nota de Alerta Estilizada
+> [!TIP]
+> Organizar seu código com commits frequentes e mensagens claras (`feat:`, `fix:`, `docs:`) é uma das melhores práticas do mercado de QA!
 
 
 
