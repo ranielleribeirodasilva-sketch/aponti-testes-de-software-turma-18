@@ -75,8 +75,6 @@ Para falar conosco, acesse a pagina de [fale Conosco](https://github.com/raniell
 
 [Clique aqui para abrir o arquivo PDF](projeto_pessoal_github.pdf)
 
-![Texto Alternativo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWakc9JkU_mUUeEaBrrAiry6U4yXSMX2jpQ14xzAvq1Q&s=10)
-
 <img width="200" height="200" alt="GitHub-logo" src="https://github.com/user-attachments/assets/6ca05aa4-8921-4ed4-a74f-87080ff40869" />
 
 
