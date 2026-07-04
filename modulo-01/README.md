@@ -182,8 +182,9 @@ def saudar_usuario(nome):
     print(f"Olá, {nome}! Projeto Python inicializado com sucesso. 🚀")
 
 if __name__ == "__main__":
-    saudar_usuario("Ranielle")
-Exercício 5 – Checklist de atividades 🚀
+    saudar_usuario("Ranielle")```
+
+# Exercício 5 – Checklist de atividades 🚀
 
 [ ] Criar repositório
 
