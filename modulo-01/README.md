@@ -183,17 +183,14 @@ def saudar_usuario(nome):
 
 if __name__ == "__main__":
     saudar_usuario("Ranielle")
+```
 
-# Exercício 5 – Checklist de atividades 🚀
-
-- [ ] Criar repositório
-
-- [ ] Adicionar README
-
-- [ ] Inserir imagem
-
-- [ ] Inserir PDF
-
+# Exercício 5 – Checklist de atividades 🚀  
+  
+- [ ] Criar repositório  
+- [ ] Adicionar README  
+- [ ] Inserir imagem  
+- [ ] Inserir PDF  
 - [ ] Finalizar documentação
 
 
