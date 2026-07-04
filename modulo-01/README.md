@@ -145,7 +145,7 @@ git clone https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git
 
 ## 👤 Autor
 
-Desenvolvido por [Ranielle](https://github.com/ranielleribeirodasilva-sketch)
+Desenvolvido por [Ranielle Ribeiro](https://github.com/ranielleribeirodasilva-sketch)
 
 * 💼 **LinkedIn:** [https://www.linkedin.com/in/ranielle-ribeiro-19850835](https://www.linkedin.com/in/ranielle-ribeiro-19850835)
 * 🖥️ **GitHub:** [https://github.com/ranielleribeirodasilva-sketch](https://github.com/ranielleribeirodasilva-sketch)
