@@ -154,7 +154,13 @@ Desenvolvido por **Ranielle**.
 * 🖥️ **GitHub:** [Veja meu perfil](https://github.com/ranielleribeirodasilva-sketch)
 * 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
+## 👤 Autor
 
+Desenvolvido por [Ranielle](https://github.com/ranielleribeirodasilva-sketch)
+
+* 💼 **LinkedIn:** https://www.linkedin.com/in/ranielle-ribeiro-19850835a
+* 🖥️ **GitHub:** https://github.com/ranielleribeirodasilva-sketch
+* 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
 
 
