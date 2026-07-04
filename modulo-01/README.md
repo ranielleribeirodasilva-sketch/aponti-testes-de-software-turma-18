@@ -166,7 +166,7 @@ git add .
 git commit -m "feat: adicionando blocos de código"
 git push origin main
 
-#### 📌 Comandos Git
+### Comandos do Terminal
 
 Comandos gerais utilizados para navegar entre as pastas do sistema e gerenciar arquivos pelo terminal:
 
