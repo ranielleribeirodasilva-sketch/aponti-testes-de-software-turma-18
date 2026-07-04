@@ -220,6 +220,17 @@ Abaixo está um bloco de citação destacando uma das frases mais famosas do mun
 > "Programas devem ser escritos para pessoas lerem e apenas incidentalmente para máquinas executarem."
 > — *Harold Abelson*
 
+## 📌 Índice de Navegação
+
+Clique em qualquer link abaixo para ir direto até a seção desejada:
+
+- [Exercício 4 – Blocos de código](#exercício-4--blocos-de-código)
+- [Exercício 5 – Checklist de atividades](#exercício-5--checklist-de-atividades)
+- [Exercício 6 – Criando uma tabela](#exercício-6--criando-uma-tabela)
+- [Exercício 7 – Badges do GitHub](#exercício-7--badges-do-github)
+- [Exercício 8 – Inserindo citações](#exercício-8--inserindo-citações)
+- [Exercício 9 – Links internos](#-índice-de-navegação)
+
 
 
 
