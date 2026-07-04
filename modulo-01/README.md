@@ -166,7 +166,7 @@ git add .
 git commit -m "feat: adicionando blocos de código"
 git push origin main
 
-💻 Comandos do Terminal
+#### 💻 Comandos do Terminal
 Comandos gerais utilizados para navegar entre as pastas do sistema e gerenciar arquivos pelo terminal:
 
 cd meu-projeto
@@ -174,7 +174,7 @@ ls
 mkdir nova-pasta
 clear
 
-🐍 Código em Python
+#### 🐍 Código em Python
 
 def saudar_usuario(nome):
     print(f"Olá, {nome}! Projeto Python inicializado com sucesso. 🚀")
