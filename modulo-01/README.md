@@ -161,7 +161,7 @@ Desenvolvido por [Ranielle Ribeiro](https://github.com/ranielleribeirodasilva-sk
 Para clonar o repositório, verificar o status dos arquivos e enviar as alterações para o GitHub:
 
 ```text
-git clone https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git
+git clone [https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git](https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git)
 git status
 git add .
 git commit -m "feat: adicionando blocks de código"
@@ -182,7 +182,7 @@ def saudar_usuario(nome):
     print(f"Olá, {nome}! Projeto Python inicializado com sucesso. 🚀")
 
 if __name__ == "__main__":
-    saudar_usuario("Ranielle") ```
+    saudar_usuario("Ranielle")
 
 # Exercício 5 – Checklist de atividades 🚀
 
