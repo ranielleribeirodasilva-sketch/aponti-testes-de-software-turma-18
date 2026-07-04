@@ -137,18 +137,19 @@ Antes de começar, você precisará ter instalado em seu computador as seguintes
 Abra o terminal do seu computador (ou o terminal do VS Code) e execute os seguintes comandos, um por um:
 
 #### 1. Clonar o Repositório
-Copie o projeto do GitHub para a sua máquina local:
-```bash
+Copie o projeto do GitHub para a sua máquina local executando o comando abaixo:
+
 git clone https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git
 
+---
 
 ## 👤 Autor
 
 Desenvolvido por [Ranielle](https://github.com/ranielleribeirodasilva-sketch)
 
-* 💼 **LinkedIn:** <https://www.linkedin.com/in/ranielle-ribeiro-19850835>
-* 🖥️ **GitHub:** <https://github.com/ranielleribeirodasilva-sketch>
-* 📧 **E-mail:** <mailto:ranielleribeirodasilva@gmail.com>
+* 💼 **LinkedIn:** [https://www.linkedin.com/in/ranielle-ribeiro-19850835](https://www.linkedin.com/in/ranielle-ribeiro-19850835)
+* 🖥️ **GitHub:** [https://github.com/ranielleribeirodasilva-sketch](https://github.com/ranielleribeirodasilva-sketch)
+* 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
 
 
