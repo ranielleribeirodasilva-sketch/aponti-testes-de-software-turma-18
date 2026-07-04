@@ -148,6 +148,7 @@ git clone [https://github.com/seu-usuario/seu-repositorio.git](https://github.co
 Desenvolvido por **Ranielle**.
 
 * 💼 **LinkedIn:** [Acesse meu LinkedIn](https://www.linkedin.com/in/ranielle-ribeiro-19850835a)
+[Site da Aponti](https://moodle.aponti.org.br/?redirect=0).
 * 🖥️ **GitHub:** [Veja meu perfil](https://github.com/ranielleribeirodasilva-sketch)
 * 📧 **E-mail:** ranielleribeirodasilva@gmail.com
 
