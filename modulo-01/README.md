@@ -139,7 +139,7 @@ Abra o terminal do seu computador (ou o terminal do VS Code) e execute os seguin
 #### 1. Clonar o Repositório
 Copie o projeto do GitHub para a sua máquina local:
 ```bash
-git clone [https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git](https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git)
+git clone [https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git](https://github.com/ranielleribeirodasilva-sketch/seu-repositorio.git)```
 
 
 ## 👤 Autor
