@@ -213,6 +213,13 @@ Abaixo estão os selos que representam as principais tecnologias, licença e o s
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge)
 
 
+# Exercício 8 – Inserindo citações 🚀
+
+Abaixo está um bloco de citação destacando uma das frases mais famosas do mundo do desenvolvimento de software:
+
+> "Programas devem ser escritos para pessoas lerem e apenas incidentalmente para máquinas executarem."
+> — *Harold Abelson*
+
 
 
 
