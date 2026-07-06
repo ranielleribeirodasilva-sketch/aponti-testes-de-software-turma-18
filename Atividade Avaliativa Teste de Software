@@ -1,1 +1,70 @@
+APONTI - TESTE DE SOFTWARE
+MÓDULO 01
+AULA 1
+EXEC 1
 
+CENÁRIO FICTÍCIO
+Sistema
+PsicoCare – Sistema de Gestão para Clínica de Psicologia
+
+
+Defeito 1 – Ficha de Anamnese (Erro de Persistência)
+
+Fase Ideal de Detecção: Fase de Desenvolvimento (Testes Unitários ou de Integração). Um teste automatizado básico de persistência (salvar e buscar) 
+teria pego a falha na camada de acesso aos dados (DAO/Repositório).
+Impacto para o Usuário: Alta frustração e retrabalho, pois a recepcionista recebe uma confirmação falsa e perde todo o tempo gasto preenchendo dados sensíveis de saúde.
+Impacto para o Negócio: Perda de dados críticos (Anamnese é um documento legal obrigatório na psicologia), gerando graves riscos de processos jurídicos e perda de credibilidade.
+Relação com o Custo: Alto. O bug afeta a integridade da aplicação. Exige que desenvolvedores parem suas tarefas para analisar logs do servidor e do banco de dados.
+
+Defeito 2 – Agenda de Consultas (Regra de Negócio)
+
+Fase Ideal de Detecção: Fase de Requisitos / Design. A especificação da funcionalidade de agendamento deveria conter explicitamente a validação de concorrência de horários para o mesmo profissional.
+Impacto para o Usuário: Constrangimento extremo para o psicólogo e para os pacientes, que comparecerão à clínica no mesmo horário, gerando atrasos e desgaste no atendimento.
+Impacto para o Negócio: Caos operacional na recepção, perda de clientes para a concorrência e quebra de profissionalismo da marca.
+Relação com o Custo: Muito Alto. Como a validação de concorrência não foi prevista na arquitetura, será necessário reescrever a lógica principal do módulo de agenda.
+
+Defeito 3 – Cadastro do Psicólogo (Validação de Entrada)
+
+Fase Ideal de Detecção: Fase de Desenvolvimento (Testes Unitários / Code Review). Validações de formato de strings (como tamanho e padrão de caracteres de registros profissionais)
+devem ser cobertas no front-end e back-end durante a codificação.
+Impacto para o Usuário: Permite que dados incorretos entrem no sistema por erro de digitação, sem que o usuário perceba o equívoco de imediato.
+Impacto para o Negócio: Risco de compliance e fiscalização. A clínica pode ser penalizada por manter psicólogos atuando com dados de CRP inválidos ou inconsistentes no sistema.
+Relação com o Custo: Médio. A correção é relativamente simples (inserção de uma expressão regular - Regex ou máscara de campo), mas exige atualizar o código e gerar um novo build.
+
+Defeito 4 – Controle Financeiro (Validação de Negócio)
+
+Fase Ideal de Detecção: Fase de Requisitos / Testes Unitários. Regras básicas de finanças (como impedir valores negativos em campos de recebimento) devem ser blindadas no código de regras de negócio.
+Impacto para o Usuário: Erros de saldo que confundem o operador do caixa e dificultam o fechamento diário do financeiro.
+Impacto para o Negócio: Prejuízo financeiro direto, relatórios de faturamento mascarados, problemas graves de contabilidade e auditoria interna.
+Relação com o Custo: Alto. Erros financeiros exigem correções cirúrgicas, testes regressivos rigorosos e, possivelmente, scripts de correção no banco de dados para ajustar saldos corrompidos.
+
+Defeito 5 – Controle de Estoque (Regra de Negócio)
+
+Fase Ideal de Detecção: Fase de Requisitos ou Testes de Sistema. Faltou a validação de consistência lógica de estoque
+("Quantidade Saída $\le$ Quantidade Atual").Impacto para o Usuário: O profissional conta com materiais de testes psicológicos que, na realidade física, não existem.Impacto para o Negócio:
+Interrupção de consultas importantes por falta de insumos, falha no planejamento de compras e perda de controle patrimonial.Relação com o Custo: Médio/Alto. Exige a criação de uma lógica de 
+validação impeditiva na rota de baixa de materiais.
+
+Defeito 6 – Exclusão de Paciente (Integridade de Banco de Dados)
+
+Fase Ideal de Detecção: Fase de Design/Arquitetura (Modelagem do Banco de Dados). O relacionamento entre as tabelas de Pacientes e Consultas deveria possuir regras de integridade referencial
+bem definidas (como impedir a exclusão ou aplicar Soft Delete).
+Impacto para o Usuário: Visualização de consultas "fantasmas" na agenda, sem qualquer identificação de qual paciente pertencia aquele horário.
+Impacto para o Negócio: Geração de "lixo eletrônico" e inconsistência de dados. Relatórios gerenciais e estatísticos da clínica ficarão totalmente distorcidos.
+Relação com o Custo: Alto. Corrigir a modelagem de banco de dados com dados já populados e corrompidos exige a criação de scripts de migração complexos e limpeza manual de registros órfãos.
+
+Defeito 7 – Pesquisa de Pacientes (Usabilidade)
+
+Fase Ideal de Detecção: Fase de Testes de Sistema / Interface. Defeitos de sensibilidade a maiúsculas/minúsculas (Case Sensitivity) em buscas simples costumam ser fáceis de notar em testes de usabilidade.
+Impacto para o Usuário: Dificuldade para localizar cadastros existentes. A recepcionista pode achar que o paciente não existe e criar um cadastro duplicado.
+Impacto para o Negócio: Lentidão no atendimento e proliferação de cadastros duplicados no sistema, sujando a base de clientes.
+Relação com o Custo: Baixo. É a correção mais barata e rápida do relatório. Geralmente, resolve-se alterando a query do banco para ignorar a caixa das letras (usando funções como LOWER() ou operadores equivalentes).
+
+Defeito 8 – Login (Segurança)
+
+Fase Ideal de Detecção: Fase de Design de Arquitetura ou Testes de Sistema. Requisitos não funcionais de segurança devem ser definidos na arquitetura inicial da aplicação.
+Impacto para o Usuário: Vulnerabilidade de privacidade. Qualquer pessoa mal-intencionada pode tentar adivinhar a senha de um profissional por força bruta.
+Impacto para o Negócio: Risco Crítico. A clínica lida com dados médicos e psicológicos altamente sensíveis. A falta de proteção contra ataques expõe o negócio a vazamentos de dados
+catastróficos e sanções severas da LGPD (Lei Geral de Proteção de Dados).
+Relação com o Custo: Alto e Urgente. Exige a implementação urgente de uma camada de segurança (como bloqueio temporário por IP/conta ou captcha após tentativas falhas), afetando o fluxo
+principal de autenticação do sistema.
