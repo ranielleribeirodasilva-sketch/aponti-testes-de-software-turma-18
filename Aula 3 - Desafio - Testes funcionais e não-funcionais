@@ -1,1 +1,77 @@
+Parte 1 — Testes funcionais
+Exercício 1 — Paciente
+Funcionalidade: Cadastrar paciente
 
+Usuário: Recepcionista / Psicólogo
+
+Entrada principal: CPF, telefone e e-mail
+
+Resultado esperado: Registrar o cadastro do paciente
+
+Possível erro: CPF inválido ou já cadastrado no sistema
+
+Possível erro: E-mail inválido ou já cadastrado no sistema
+
+Funcionalidade: Cadastrar Psicólogos
+
+Usuário: Recepcionista
+
+Entrada principal: Nome, CRP, especialidade e telefone
+
+Resultado esperado: Registrar o cadastro do psicólogo
+
+Possível erro: CRP inválido ou já cadastrado no sistema
+
+Funcionalidade: Cadastrar Funcionários
+
+Usuário: Recepcionista
+
+Entrada principal: Nome, cargo, telefone e e-mail
+
+Resultado esperado: Registrar o cadastro dos funcionários
+
+Possível erro: E-mail inválido ou já cadastrado no sistema
+
+Funcionalidade: Agenda profissional
+
+Usuário: Psicólogo / Recepcionista
+
+Entrada principal: Nome, data e horário
+
+Resultado esperado: Registrar a agenda do profissional
+
+Possível erro: Dois agendamentos no mesmo horário
+
+Funcionalidade: Lançar Despesas
+
+Usuário: Recepcionista
+
+Entrada principal: Descrição do produto, data, valor, categoria e ações
+
+Resultado esperado: Lançamento salvo e saldo financeiro atualizado
+
+Possível erro: Valor monetário inválido ou campo obrigatório em branco
+
+Exercício 2 — Testes unitários
+1 - Função/regra: Controle de estoque
+Entrada:
+
+Produto: Algodão | Quantidade: 50 | Movimentação: Entrada | Data: 25/05/2026
+
+Produto: Algodão | Quantidade: 20 | Movimentação: Saída | Data: 30/05/2026
+
+Resultado esperado:
+
+Regra de validação dos campos obrigatórios: Produto, Quantidade, Movimentação e Data.
+
+Regra do botão Salvar: Realiza a verificação das validações de preenchimento dos campos antes de salvar no banco de dados.
+
+Regra do botão Cancelar: Desconsidera os registros e retorna à página anterior.
+
+Regra do botão Voltar: Retorna à página anterior.
+
+Tela inicial: Lista os registros salvos.
+
+Por que é unitário?
+
+Avalia uma pequena unidade de código de forma isolada (como uma regra de validação do nome do produto), sem depender da interface de usuário, do banco de dados ou de serviços externos.
