@@ -1,0 +1,138 @@
+CT01 — Login com credenciais válidas (Caminho Feliz)
+
+Prioridade: Alta Tipo: Funcional Positivo
+
+Pré-condição: Usuário cadastrado e ativo.
+
+Passos:
+
+Acessar a tela de login.
+Preencher o campo "E-mail" com usuario@teste.com.
+Preencher o campo "Senha" com Senha@123.
+Clicar no botão "Entrar".
+
+Resultado esperado: O sistema redireciona o usuário para a tela inicial (dashboard/home) em até 3 segundos, exibindo o nome do usuário logado no cabeçalho.
+
+CT02 — Login com senha incorreta
+
+Prioridade: Alta Tipo: Funcional Negativo
+
+Pré-condição: Usuário cadastrado e ativo.
+
+Passos:
+
+Acessar a tela de login.
+Preencher o campo "E-mail" com usuario@teste.com.
+Preencher o campo "Senha" com SenhaErrada123.
+Clicar no botão "Entrar".
+
+Resultado esperado: O sistema permanece na tela de login e exibe a mensagem "E-mail ou senha inválidos". O campo de senha é limpo e o campo de e-mail mantém o valor digitado.
+
+CT03 — Login com e-mail não cadastrado
+
+Prioridade: Alta Tipo: Funcional Negativo
+
+Passos:
+
+Acessar a tela de login.
+Preencher o campo "E-mail" com naoexiste@teste.com.
+Preencher o campo "Senha" com QualquerSenha1.
+Clicar no botão "Entrar".
+
+Resultado esperado: O sistema exibe a mensagem "E-mail ou senha inválidos" (sem indicar especificamente que o e-mail não existe, por questão de segurança). Nenhum redirecionamento ocorre.
+
+CT04 — Tentativa de login com campos vazios
+
+Prioridade: Alta Tipo: Funcional Negativo / Validação
+
+Passos:
+
+Acessar a tela de login.
+Deixar os campos "E-mail" e "Senha" em branco.
+Clicar no botão "Entrar".
+
+Resultado esperado: O sistema exibe mensagens de validação abaixo de cada campo: "O campo e-mail é obrigatório" e "O campo senha é obrigatório". Nenhuma requisição de autenticação é enviada ao servidor.
+
+CT05 — Bloqueio de conta após múltiplas tentativas falhas (fora da caixinha)
+
+Prioridade: Alta Tipo: Segurança
+
+Pré-condição: Usuário cadastrado e ativo, limite de tentativas configurado (ex: 5).
+
+Passos:
+
+Acessar a tela de login.
+Inserir o e-mail válido usuario@teste.com e uma senha incorreta.
+Clicar em "Entrar" e repetir o passo 2 até completar 5 tentativas seguidas com senha incorreta.
+Na 6ª tentativa, inserir a senha correta Senha@123 e clicar em "Entrar".
+
+Resultado esperado: Após a 5ª tentativa falha, o sistema bloqueia temporariamente a conta e exibe a mensagem "Conta bloqueada temporariamente. Tente novamente em 15 minutos" ou envia notificação por e-mail. Mesmo com a senha correta na 6ª tentativa, o acesso é negado enquanto o bloqueio estiver ativo.
+
+CT06 — Login com usuário inativo/bloqueado
+
+Prioridade: Média Tipo: Funcional Negativo
+
+Pré-condição: Usuário bloqueado@teste.com está com status inativo no sistema.
+
+Passos:
+
+Acessar a tela de login.
+Preencher e-mail bloqueado@teste.com e senha válida correspondente.
+Clicar em "Entrar".
+
+Resultado esperado: O sistema impede o acesso e exibe a mensagem "Sua conta está inativa. Entre em contato com o suporte", sem redirecionar para a área logada.
+
+CT07 — Tentativa de SQL Injection nos campos de login (fora da caixinha)
+
+Prioridade: Alta Tipo: Segurança
+
+Passos:
+
+Acessar a tela de login.
+No campo "E-mail", inserir ' OR '1'='1.
+No campo "Senha", inserir ' OR '1'='1.
+Clicar em "Entrar".
+
+Resultado esperado: O sistema trata a entrada como texto inválido, exibe a mensagem padrão "E-mail ou senha inválidos" e não concede acesso nem retorna erro de banco de dados na tela.
+
+CT08 — Sensibilidade a maiúsculas/minúsculas no e-mail (case sensitivity)
+
+Prioridade: Média Tipo: Funcional / Regra de Negócio
+
+Passos:
+
+Acessar a tela de login.
+Preencher o campo "E-mail" com USUARIO@TESTE.COM (mesmo e-mail cadastrado, porém em maiúsculas).
+Preencher a senha correta Senha@123.
+Clicar em "Entrar".
+
+Resultado esperado: O sistema reconhece o e-mail independentemente de maiúsculas/minúsculas e realiza o login com sucesso, redirecionando para a tela inicial.
+
+CT09 — Persistência de sessão com opção "Lembrar-me"
+
+Prioridade: Média Tipo: Funcional Positivo
+
+Passos:
+
+Acessar a tela de login.
+Preencher e-mail e senha válidos.
+Marcar a caixa de seleção "Lembrar-me".
+Clicar em "Entrar".
+Fechar completamente o navegador.
+Reabrir o navegador e acessar a URL do sistema novamente.
+
+Resultado esperado: O usuário é direcionado automaticamente à tela inicial, sem necessidade de novo login, permanecendo autenticado.
+
+CT10 — Alternância de visibilidade da senha (ícone "olho")
+
+Prioridade: Baixa Tipo: Usabilidade
+
+Passos:
+
+Acessar a tela de login.
+Preencher o campo "Senha" com Senha@123.
+Clicar no ícone de "mostrar senha" (ícone de olho).
+Observar o campo de senha.
+Clicar novamente no ícone para ocultar.
+
+Resultado esperado: Ao clicar no ícone pela primeira vez, a senha é exibida em texto plano (Senha@123). Ao clicar novamente, o campo volta a exibir os caracteres mascarados (pontos/asteriscos).
